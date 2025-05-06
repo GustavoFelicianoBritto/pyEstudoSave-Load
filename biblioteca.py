@@ -39,7 +39,6 @@ def loginUser(login, senha):
         status = 0
         #usuario não encontrado ao digitar o usuario¹
 
-
 def registerUser(debug_maxUser, debug_position_last):
     """
     0 - debug_maxUser = O máximo de usuário permitido no servidor, geralmente uso 10

@@ -1,4 +1,3 @@
-import random, string
 from biblioteca import *
 
 #espaço que define um valor debug temporario para quantidade maxima de usuarios
