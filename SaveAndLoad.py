@@ -3,7 +3,7 @@ import random
 
 username= os.getlogin()
 
-caminho = fr"C:\Users\{username}\Documents\dados.txt"
+caminho = fr"C:\Users\{username}\Documents\jessica.txt"
 
 wordListEstados =["acre","alagoas","amapa","amazonas","bahia","ceara","goias","maranhao","paraiba","parana","pernambuco","piaui",
 "rondonia","roraima","sergipe","tocantins"]
