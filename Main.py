@@ -1,4 +1,4 @@
-from biblioteca import *
+from biblioteca import registerUser, loginUser
 
 #espaço que define um valor debug temporario para quantidade maxima de usuarios
 debug_maxUser =10 #máximo de usuários que será registrado

@@ -39,14 +39,22 @@ def loginUser(login, senha):
         status = 0
         #usuario não encontrado ao digitar o usuario¹
 
-def registerUser(debug_maxUser, debug_position_last):
+
+def repetirSenha(senha1,senha2):
+    if senha1==senha2:
+        return True
+    else:
+        return False
+
+
+def registerUser(debug_maxUser, debug_position_last,user,password):
     """
     0 - debug_maxUser = O máximo de usuário permitido no servidor, geralmente uso 10
     1- debug_position_last = posição atual da lista, quantidade de linhas no .txt, para que não sobrescreva
 
     """
 
-    login = [None]*debug_maxUser
+    login = [None]*10
     senha = [None]*debug_maxUser
 
     login[debug_position_last] = input(f"Bem vindo, digite seu login: ") or f"User{debug_position_last}"
